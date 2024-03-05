@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9282F269-205F-B36C-DE59-3D6AD5947E61" name="DISC_INDI">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>D22E1037-E8E8-D720-9EE3-EA0849272CF3</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DISCOUNT_ID" id="3D84E4C8-25BD-EB34-8A03-AAED72BA3DED">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Identification Discount ID]]></commentInRDBMS>
+<generatorID>78657B77-9E13-E637-53B8-B412EEA6CE61</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="698A7C6C-9BF1-6881-57F2-7AF3CE1C389E" referredColumn="5B8EACAA-B09F-6B5E-64BF-7F8A6F66EF7F"/>
+</associations>
+</Column>
+<Column name="DISC_PERCENT" id="533B87DE-8CE3-0AC6-75F6-08966379D821">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes Percentage of Discount]]></commentInRDBMS>
+<generatorID>2BEB5D64-03DE-857A-D5E2-A7F9802B505D</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE" id="1EE4DCCD-7EE3-00D8-F0BD-7184FFBFBBD2">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes Validity from]]></commentInRDBMS>
+<generatorID>11BA6503-D5F7-9F54-EFBE-4C67A32BEEC5</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="FFF1E620-F106-5068-6017-27B636F2099C">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes Validity To]]></commentInRDBMS>
+<generatorID>62BF1E1B-6F6D-DA36-CE7E-7623FF1E2728</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C0A888FF-96CA-C9ED-17DA-E26A613A6973" name="DISC_INDI_PK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>BB0EFBC3-FE99-A014-ABAD-11DA4CE0AE0F</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D84E4C8-25BD-EB34-8A03-AAED72BA3DED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBDE1763-B4A1-639C-882F-D93E759CE11D" name="DISC_INDI_CCN_DISCOUNT_FK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>E31988C8-18BF-332D-CFF6-0E0A358B48B5</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D84E4C8-25BD-EB34-8A03-AAED72BA3DED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

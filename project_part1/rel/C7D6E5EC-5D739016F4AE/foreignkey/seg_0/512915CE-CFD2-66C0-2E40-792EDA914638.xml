@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="512915CE-CFD2-66C0-2E40-792EDA914638" containerWithKeyObject="B6FE2F08-59BA-75B6-055E-15D0B16FAAAB" localFKIndex="170B616E-AA2B-7966-FFCC-05638C4BC5F7" name="CCN_RENTAL_CCN_DISCOUNT_FK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>8DADBC1A-A23A-E463-8245-0E1C58C57959</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<referredTableLongName>CCN_DISCOUNT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7CCFAD57-494A-B628-B5E1-627764594925</referredTableID>
+<keyObject>7F2F566D-270A-8921-2191-7D6963823019</keyObject>
+<referredKeyID>7F2F566D-270A-8921-2191-7D6963823019</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DISCOUNT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3D0C2FE-1986-E479-DFB4-36EADA100730" name="CCN_VEH_CLASS">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>CE841DC0-2E8F-7DB7-CDC7-3CEFFA13C429</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CLASS_ID" id="B1803950-84D6-D8DE-8E40-1FAD3B3E6DBF">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Vehicle Class Identification Number]]></commentInRDBMS>
+<generatorID>EA067D1E-6EC0-C6FB-B741-6F97BDFB4EF1</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLASS_NAME" id="6C502A26-E026-00E2-5744-DDD720998DDA">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes various classes of vehicle such as small car, mid-size car, luxury car, SUV, Premium SUV, Mini Van, Station Wagon etc.]]></commentInRDBMS>
+<generatorID>EE917CB5-A67A-99A0-A059-DA970C7B0754</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAILY_RENTRATE" id="B3433102-2979-F8E7-61BB-5A415A9A1DC6">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes the per day rental fee]]></commentInRDBMS>
+<generatorID>F2D48618-65C4-B0ED-D3D5-4DDBD017EE3E</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OVERMILEAGE" id="DA6FD19A-B565-C020-A168-2E97876E5CFE">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes overmileage rate of Vehicle]]></commentInRDBMS>
+<generatorID>74D16BA8-8EC0-0C27-36BB-00BFF8128546</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ODOLIMIT" id="1DE030CC-BB6A-BE8E-370B-9EF7E230CAB2">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes Odometer Limit]]></commentInRDBMS>
+<generatorID>175F67BD-F186-F335-39A7-18A0CA37B1FF</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="711DBA15-2D1F-5FF3-BA2C-6B15A601E082" name="CCN_VEH_CLASS_PK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>26403D20-BB3E-CD9B-2A3F-DA7CED6314C3</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1803950-84D6-D8DE-8E40-1FAD3B3E6DBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5430125B-5CFC-C3B9-83BA-83E0E3413B71" name="CCN_CUST">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>DD1043AF-B7BF-2553-A9CF-DB07D0B601C5</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUST_ID" id="EBFD821C-4CC2-9666-FF48-C438C758C1D3">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Customer ID Identifier]]></commentInRDBMS>
+<generatorID>76063AB5-B2E1-E141-28B8-13C2AF945FB7</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STR_ADD" id="652E872A-F0B3-5940-FFE3-B46867FA0003">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes Street Address of the Customer]]></commentInRDBMS>
+<generatorID>4EFF166F-C7D3-B42B-C294-A0629E55AC68</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_CITY" id="3C765BA3-8A0C-4FA7-1B47-E35D96DB6502">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes city of Residence of Customer]]></commentInRDBMS>
+<generatorID>941BEC71-4EC6-9C73-86AC-31CC7F2AA83B</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_STATE" id="71606239-9F8B-0588-9935-5DC2165137A7">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes State of Residency of Customer]]></commentInRDBMS>
+<generatorID>87682E2C-DFD7-40D8-8DE2-6D769C82BA58</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_COUNTRY" id="B99EEC08-88A4-8F4F-2536-2E9634FB38E3">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Country of Residence of Customer]]></commentInRDBMS>
+<generatorID>A0A9CAF8-49A7-2BD9-8BAE-4237D030ECA3</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_ZIPCODE" id="32BB3062-B86F-CBBB-22CF-8A588962C6CD">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes Zipcode of Customer]]></commentInRDBMS>
+<generatorID>8A84A0CB-4C32-7424-C5AF-26683D978FD7</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_PHONENO" id="1029524F-7DF3-18BC-9239-B30E94EF330E">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes Phone Number of Customer]]></commentInRDBMS>
+<generatorID>411EA99A-A681-96E0-C577-191F3C10886D</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_TYPE" id="D5C68DD3-7FDE-712B-304E-C8CAB3341963">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Type of Customer]]></commentInRDBMS>
+<generatorID>7B7EE0DD-1B6A-CA8E-C78C-8DFE3A4E5C4F</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<constraintName>CH_INH_CCN_CUST</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="C" description="entity CUST_CORP"/>
+<valueDef value="I" description="entity CUST_INDI"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4580B279-FB5D-66FD-B557-142CA0345474" name="CCN_CUST_PK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>9B872706-C09A-1D3A-CF67-3B93CC9D11A1</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBFD821C-4CC2-9666-FF48-C438C758C1D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

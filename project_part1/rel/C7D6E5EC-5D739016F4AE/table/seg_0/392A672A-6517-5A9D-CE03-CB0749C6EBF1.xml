@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="392A672A-6517-5A9D-CE03-CB0749C6EBF1" name="CUST_CORP">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>6AA96D6C-CC7A-3F10-C003-18E0DAC13727</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUST_ID" id="3FE5DE16-D52D-40DC-5A43-B972D29762D0">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Customer ID Identifier]]></commentInRDBMS>
+<generatorID>76063AB5-B2E1-E141-28B8-13C2AF945FB7</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="405F8588-57A9-B9F7-2A71-F32D7A1F3A4E" referredColumn="EBFD821C-4CC2-9666-FF48-C438C758C1D3"/>
+</associations>
+</Column>
+<Column name="CORP_ID" id="60E21C96-2CB5-CD77-AA9B-2D3976AA90DD">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Identification Number of Corporate]]></commentInRDBMS>
+<generatorID>F24A4D15-01F6-FC94-36E5-0A0D088CEA29</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMP_NAME" id="03488C50-E654-416A-030F-21D1490D88FF">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Name of the Company]]></commentInRDBMS>
+<generatorID>1C1BE6A8-F2FF-CA26-1A11-F3DE97855EED</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REG_NO" id="0F154844-63A5-8A8C-620F-EB3998D6B9B9">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Registration Number of the Corporation]]></commentInRDBMS>
+<generatorID>C88F3F31-1695-5D0B-B537-DDB0738A74C8</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMP_ID" id="875EA6D5-FFD5-6AF2-5EF6-6EC83C51714A">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Employee Identification Number]]></commentInRDBMS>
+<generatorID>F96993A2-55D4-01B0-70C3-1129BC9EA6AC</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="107426F5-AFD1-765F-ECAF-E6666A8660A9" name="CUST_CORP_PK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>9B872706-C09A-1D3A-CF67-3B93CC9D11A1</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FE5DE16-D52D-40DC-5A43-B972D29762D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38FD03CE-0581-22B4-2890-C5FEDFD09ADA" name="CUST_CORP_PKv1">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>25E4F8CA-7689-07BB-0972-59BE7D5B0AD0</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60E21C96-2CB5-CD77-AA9B-2D3976AA90DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9BDC8D61-2AB8-D9B9-0381-95AAD8182126" name="CUST_CORP_CCN_CUST_FK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>52D9779F-72D5-C7DB-1A50-8F160C766E3F</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FE5DE16-D52D-40DC-5A43-B972D29762D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

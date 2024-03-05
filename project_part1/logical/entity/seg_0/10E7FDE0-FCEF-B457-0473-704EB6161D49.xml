@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="10E7FDE0-FCEF-B457-0473-704EB6161D49" name="CCN_INVOICE">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:50:32 UTC</createdTime>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="INVOICE_ID" id="58781461-380D-28A4-22DE-C783FCC233C2">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:50:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Identifier ID of Invoice]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INVOICE_DATE" id="36D34598-5C47-39DE-6A73-E3792155C69C">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:51:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date when Invoice was generated]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INVOICE_AMNT" id="0E3D6749-A558-AD52-CC3E-01985E1BAE26">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:52:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Amount on the Generated Invoice]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RENT_ID" id="E3E23895-3D87-E6EE-B5D8-D501B2257135">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 22:42:47 UTC</createdTime>
+<generatorID>3D8C6293-7A57-8BF4-893A-13F608ED5AB4</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<referedAttribute>8BED17A4-5C52-D158-349F-B7C2921FD343</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FA661084-27F5-D26A-FFEE-93A19CB6EE68" name="CNN_INVOICE PK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:51:12 UTC</createdTime>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>58781461-380D-28A4-22DE-C783FCC233C2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

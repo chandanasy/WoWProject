@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F343D80C-F320-B8A7-BB9B-CDE642CD47A6" name="CUST_INDI">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 22:32:02 UTC</createdTime>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>DD1043AF-B7BF-2553-A9CF-DB07D0B601C5</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<discriminatorValue>I</discriminatorValue>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DRIVER_LICENSE" id="DAAB751A-7781-9CEB-CE7C-666E753AD8AC">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 22:32:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes Driver's License of Customer]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INS_COMP_NAME" id="8BE05ECB-27BB-EF44-C881-5476529B34C0">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 22:33:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Name of Insurance Company]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INS_POL_NUM" id="942AD036-1D60-9384-4814-FAD3EA600EFA">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 22:34:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Policy Number of Insurance]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FNAME" id="5191D051-1CA3-9D9C-A85F-1153FAB7BBED">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 22:45:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[First Name of Customer]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LNAME" id="4CF8C31E-28C4-6C10-9C08-716ED5165AC6">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 22:45:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Last Name of Customer]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DDE8364A-52A5-3775-94F7-41CA09E83A1F" name="CUST_INDI PK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 22:33:10 UTC</createdTime>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DAAB751A-7781-9CEB-CE7C-666E753AD8AC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="54691A06-4FA6-37B9-D527-00F8CFCEF17C" name="DISC_CORP">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>E5342488-2791-D432-6713-019F35323F83</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DISCOUNT_ID" id="1A2FD177-6049-2980-E470-2CD6EDB43A48">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Identification Discount ID]]></commentInRDBMS>
+<generatorID>78657B77-9E13-E637-53B8-B412EEA6CE61</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB604192-593F-805D-1585-1F3325C91984" referredColumn="5B8EACAA-B09F-6B5E-64BF-7F8A6F66EF7F"/>
+</associations>
+</Column>
+<Column name="DISC_PERC" id="B1C0DE2B-16B8-06C9-237B-594342F764ED">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes Discount Percentage]]></commentInRDBMS>
+<generatorID>4095A129-3DC1-1843-13FB-D2C0760BD35B</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMP_NAME" id="0A617356-6749-4F94-ED10-9DE23F71B6AF">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Name of the Company]]></commentInRDBMS>
+<generatorID>25CBF55C-713E-F377-3237-2C97F72287B0</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A41E83AD-420D-F52E-59DB-8D611105633D" name="DISC_CORP_PK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>BB0EFBC3-FE99-A014-ABAD-11DA4CE0AE0F</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A2FD177-6049-2980-E470-2CD6EDB43A48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD95BD3B-BB36-150B-9037-961130BA745B" name="DISC_CORP_CCN_DISCOUNT_FK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>B21B1527-7A4D-726C-F741-3FEA76C24C2A</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A2FD177-6049-2980-E470-2CD6EDB43A48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

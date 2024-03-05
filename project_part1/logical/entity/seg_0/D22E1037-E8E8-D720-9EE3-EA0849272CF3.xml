@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D22E1037-E8E8-D720-9EE3-EA0849272CF3" name="DISC_INDI">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 22:16:33 UTC</createdTime>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>063CDFF5-D48B-7D06-27FB-ECA7BC7B259B</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<discriminatorValue>I</discriminatorValue>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DISC_PERCENT" id="2BEB5D64-03DE-857A-D5E2-A7F9802B505D">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 22:16:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes Percentage of Discount]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="START_DATE" id="11BA6503-D5F7-9F54-EFBE-4C67A32BEEC5">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 22:17:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes Validity from]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="END_DATE" id="62BF1E1B-6F6D-DA36-CE7E-7623FF1E2728">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 22:18:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes Validity To]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

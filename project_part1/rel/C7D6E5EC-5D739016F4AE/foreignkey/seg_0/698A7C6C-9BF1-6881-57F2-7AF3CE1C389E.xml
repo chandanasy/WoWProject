@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="698A7C6C-9BF1-6881-57F2-7AF3CE1C389E" containerWithKeyObject="9282F269-205F-B36C-DE59-3D6AD5947E61" localFKIndex="EBDE1763-B4A1-639C-882F-D93E759CE11D" name="DISC_INDI_CCN_DISCOUNT_FK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>E31988C8-18BF-332D-CFF6-0E0A358B48B5</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<referredTableLongName>CCN_DISCOUNT</referredTableLongName>
+<arc>3AA33B56-92E9-AAF8-7C53-D0DBF4F01598</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7CCFAD57-494A-B628-B5E1-627764594925</referredTableID>
+<keyObject>7F2F566D-270A-8921-2191-7D6963823019</keyObject>
+<referredKeyID>7F2F566D-270A-8921-2191-7D6963823019</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DISCOUNT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>I</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

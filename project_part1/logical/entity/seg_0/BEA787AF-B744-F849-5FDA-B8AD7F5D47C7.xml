@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BEA787AF-B744-F849-5FDA-B8AD7F5D47C7" name="CCN_VEHICLE">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:24:19 UTC</createdTime>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="VIN" id="83EFF554-92D9-5509-A76E-A1BCFA5EAC67">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:24:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Vehicle Identifier]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VEH_MAKE" id="565A85EF-4267-52F4-038D-9B93FBBFE5C8">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:25:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Make of the Vehicle]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VEH_MODEL" id="C60983E2-636D-57D5-AAE1-98AF6B3F45FC">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:26:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Model of Vehicle]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VEH_YEAR" id="C6744F8E-5F95-8EB6-772A-55802E5D683B">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:26:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Year when Vehicle was Manufactured]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VEH_LICENSENO" id="333E94AC-4CAF-D78B-A57B-A9B463C9E016">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:27:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes License Number of Vehicle]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOC_ID" id="D158C312-D25B-BCD3-97EF-E9E132209D4C">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 22:41:57 UTC</createdTime>
+<generatorID>C9D3E664-34CA-171B-D62F-78CA3ADA1110</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<referedAttribute>3021A159-04DA-CF7D-53BF-E0C20CDA3E28</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLASS_ID" id="598B0786-301C-FBDA-9C39-4B942234676F">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 22:42:17 UTC</createdTime>
+<generatorID>7EB5FA31-B6B3-16A4-1530-073A6E75D08C</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<referedAttribute>EA067D1E-6EC0-C6FB-B741-6F97BDFB4EF1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E09DBA47-9C65-D37A-6A0B-B0B6F3ACF625" name="CCN_VEHICLE PK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:25:01 UTC</createdTime>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>83EFF554-92D9-5509-A76E-A1BCFA5EAC67</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

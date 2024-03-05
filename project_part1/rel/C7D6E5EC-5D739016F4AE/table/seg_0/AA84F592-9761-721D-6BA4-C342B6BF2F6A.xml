@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA84F592-9761-721D-6BA4-C342B6BF2F6A" name="CCN_VEHICLE">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>BEA787AF-B744-F849-5FDA-B8AD7F5D47C7</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VIN" id="B7C1C7ED-98E1-3435-9DF4-D3BCEE6354EB">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Vehicle Identifier]]></commentInRDBMS>
+<generatorID>83EFF554-92D9-5509-A76E-A1BCFA5EAC67</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VEH_MAKE" id="075F761D-ED88-918C-9DBA-EF383901E4AA">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Make of the Vehicle]]></commentInRDBMS>
+<generatorID>565A85EF-4267-52F4-038D-9B93FBBFE5C8</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VEH_MODEL" id="6B359DE7-5C34-51CB-751C-3F06D2EC2D35">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Model of Vehicle]]></commentInRDBMS>
+<generatorID>C60983E2-636D-57D5-AAE1-98AF6B3F45FC</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VEH_YEAR" id="D5FDDF9B-1B3E-F032-C352-740497D1F8C4">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Year when Vehicle was Manufactured]]></commentInRDBMS>
+<generatorID>C6744F8E-5F95-8EB6-772A-55802E5D683B</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VEH_LICENSENO" id="77E88101-DB5C-369E-5FE2-63BB4E7F364C">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes License Number of Vehicle]]></commentInRDBMS>
+<generatorID>333E94AC-4CAF-D78B-A57B-A9B463C9E016</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOC_ID" id="96A23BA9-4C4E-83E7-04C6-A9436AE9EBDE">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>D158C312-D25B-BCD3-97EF-E9E132209D4C</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4EF75C8B-39E0-4DAD-F1FF-AFF30986C782" referredColumn="0C51EF18-4609-ACB6-D9DC-05FA263A0A1C"/>
+</associations>
+</Column>
+<Column name="CLASS_ID" id="0A3616C2-CC6B-07E8-6F5E-3A213B410695">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>598B0786-301C-FBDA-9C39-4B942234676F</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="885BD897-FD48-4C92-70B8-A84386D105C3" referredColumn="B1803950-84D6-D8DE-8E40-1FAD3B3E6DBF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0F73660-EA7A-4CF6-CDD4-944F04459309" name="CCN_VEHICLE_PK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>E09DBA47-9C65-D37A-6A0B-B0B6F3ACF625</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7C1C7ED-98E1-3435-9DF4-D3BCEE6354EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4426C10-0354-74CD-0128-CAAB7381ED40" name="CCN_VEHICLE_CCN_LOCATION_FK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>C9D3E664-34CA-171B-D62F-78CA3ADA1110</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96A23BA9-4C4E-83E7-04C6-A9436AE9EBDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A81FE30E-72EF-5239-FEC2-3B2723743579" name="CCN_VEHICLE_CCN_VEH_CLASS_FK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>7EB5FA31-B6B3-16A4-1530-073A6E75D08C</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A3616C2-CC6B-07E8-6F5E-3A213B410695"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

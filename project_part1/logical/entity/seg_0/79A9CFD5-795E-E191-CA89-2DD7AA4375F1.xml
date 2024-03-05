@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="79A9CFD5-795E-E191-CA89-2DD7AA4375F1" name="CCN_PAYMENT">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:53:38 UTC</createdTime>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PID" id="BA4DE503-0D78-851A-1D09-36EDD113E1FD">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:55:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Payment Identifier Number]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAYMENT_DATE" id="C3FDF4BC-9B66-159A-EAAA-3CB3524A3957">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:57:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date when the Payment was done]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAY_METHOD" id="236CB88B-5B6D-DF7D-B531-8C7CA218CEDD">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:58:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[Payment Method is either Credit card, Debit Credit, Gift Card]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CARD_NO" id="66ED2B75-384C-8191-AB0C-DEF21082A3CB">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 22:02:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes Card Number]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INVOICE_ID" id="DB4E3642-E2F6-7583-79B7-7540815399EA">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 22:42:59 UTC</createdTime>
+<generatorID>D63E51A9-E5C5-4433-71A0-72484A170BD4</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<referedAttribute>58781461-380D-28A4-22DE-C783FCC233C2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="50719838-531E-F5E4-F4F1-9468490D7EDB" name="CNN_PAYMENT PK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:55:27 UTC</createdTime>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BA4DE503-0D78-851A-1D09-36EDD113E1FD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

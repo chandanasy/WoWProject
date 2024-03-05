@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1267B36D-E045-CC20-9B20-3E6D516D01E7" name="CCN_INVOICE">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>10E7FDE0-FCEF-B457-0473-704EB6161D49</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INVOICE_ID" id="2E8F427C-9D80-4895-98E0-AA370314DD58">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Identifier ID of Invoice]]></commentInRDBMS>
+<generatorID>58781461-380D-28A4-22DE-C783FCC233C2</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INVOICE_DATE" id="63449BC9-654B-8326-B859-E296A321B4EA">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date when Invoice was generated]]></commentInRDBMS>
+<generatorID>36D34598-5C47-39DE-6A73-E3792155C69C</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INVOICE_AMNT" id="69DBEAB3-2374-C799-2ED3-64252D26C91E">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Amount on the Generated Invoice]]></commentInRDBMS>
+<generatorID>0E3D6749-A558-AD52-CC3E-01985E1BAE26</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RENT_ID" id="D2DF624C-E2CA-289C-0114-C20D729EB3EC">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>E3E23895-3D87-E6EE-B5D8-D501B2257135</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7FCC4FCB-92B1-BAA6-1E28-D0843D3B407D" referredColumn="8318C5AD-0B3B-3AED-0D89-24DAD35520CB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF2CCFD9-5E90-186D-5837-49922DF0631C" name="CCN_INVOICE_PK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>FA661084-27F5-D26A-FFEE-93A19CB6EE68</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E8F427C-9D80-4895-98E0-AA370314DD58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45DE352D-96FE-9FCD-9DDD-1C248142A3EA" name="CCN_INVOICE__IDX">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<ownerDesignName>project_part1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>3D8C6293-7A57-8BF4-893A-13F608ED5AB4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D2DF624C-E2CA-289C-0114-C20D729EB3EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55FBCEE8-D5B9-A8E0-2653-F5A58DE726F8" name="CCN_INVOICE_CCN_RENTAL_FK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>3D8C6293-7A57-8BF4-893A-13F608ED5AB4</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2DF624C-E2CA-289C-0114-C20D729EB3EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

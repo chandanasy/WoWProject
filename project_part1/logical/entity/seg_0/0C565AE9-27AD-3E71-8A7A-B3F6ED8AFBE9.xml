@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0C565AE9-27AD-3E71-8A7A-B3F6ED8AFBE9" name="CCN_LOCATION">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:15:18 UTC</createdTime>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="LOC_ID" id="3021A159-04DA-CF7D-53BF-E0C20CDA3E28">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:15:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Location Identifier]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STR_ADD" id="744DB702-3F11-EE6E-5AB6-7A85D7695822">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:17:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes Street Address of Location]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOC_CITY" id="9D71600C-34BC-8349-B496-451C8685DCA7">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:18:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes City where Office is Located]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOC_STATE" id="5F96CA1A-26C0-CE3D-6FB8-E9DDD7275FF9">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:19:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes State where office is Located]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOC_COUNTRY" id="A7A0B029-A387-77FC-E1F1-6B71113369BB">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:20:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Country where office is located]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOC_ZIPCODE" id="8EA281D3-FC4A-E1BB-D403-02F1AA95AC6F">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:20:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[Zipcode where Office is Located]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOC_PHONENO" id="28F62A69-2425-5337-D70D-FFF03828F3FF">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:22:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes Phone Number of Office]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21967384-882C-C727-DDB8-D4396636317B" name="CCN_LOCATION PK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:15:58 UTC</createdTime>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3021A159-04DA-CF7D-53BF-E0C20CDA3E28</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

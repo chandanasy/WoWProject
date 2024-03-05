@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1BDA410D-67EB-3D0D-5660-79E909EBC837" name="CUST_INDI">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>F343D80C-F320-B8A7-BB9B-CDE642CD47A6</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUST_ID" id="C60BC273-1A03-6948-34B0-D5779E5A2238">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Customer ID Identifier]]></commentInRDBMS>
+<generatorID>76063AB5-B2E1-E141-28B8-13C2AF945FB7</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEE56B9C-5685-12DB-5C2D-237F8652BF5B" referredColumn="EBFD821C-4CC2-9666-FF48-C438C758C1D3"/>
+</associations>
+</Column>
+<Column name="DRIVER_LICENSE" id="3C4125DB-9271-B2FA-A2BB-41E4287826D6">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes Driver's License of Customer]]></commentInRDBMS>
+<generatorID>DAAB751A-7781-9CEB-CE7C-666E753AD8AC</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INS_COMP_NAME" id="035EDDBA-688B-4732-DF46-F26F29E8E278">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Name of Insurance Company]]></commentInRDBMS>
+<generatorID>8BE05ECB-27BB-EF44-C881-5476529B34C0</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INS_POL_NUM" id="5C95C66D-70CD-5C46-309D-552C37242FFB">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Policy Number of Insurance]]></commentInRDBMS>
+<generatorID>942AD036-1D60-9384-4814-FAD3EA600EFA</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FNAME" id="2FDD7035-ADBB-E3B7-AB23-AB2BB510F18B">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[First Name of Customer]]></commentInRDBMS>
+<generatorID>5191D051-1CA3-9D9C-A85F-1153FAB7BBED</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LNAME" id="6C5B4DAD-45FA-B38D-2C41-3961704A311A">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Last Name of Customer]]></commentInRDBMS>
+<generatorID>4CF8C31E-28C4-6C10-9C08-716ED5165AC6</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4CC5C47-90D9-AD9E-FE15-2D95BA804CFB" name="CUST_INDI_PK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>9B872706-C09A-1D3A-CF67-3B93CC9D11A1</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C60BC273-1A03-6948-34B0-D5779E5A2238"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="623EFB78-C152-D4A2-FCDE-C11DB25CA9EA" name="CUST_INDI_PKv1">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>DDE8364A-52A5-3775-94F7-41CA09E83A1F</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C4125DB-9271-B2FA-A2BB-41E4287826D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65863A2D-DEDF-9AFE-A5D3-C1BEEAE98FF9" name="CUST_INDI_CCN_CUST_FK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>166630E5-70B8-D0CD-98EB-163088834E7E</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C60BC273-1A03-6948-34B0-D5779E5A2238"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

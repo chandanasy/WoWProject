@@ -1,0 +1,190 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6FE2F08-59BA-75B6-055E-15D0B16FAAAB" name="CCN_RENTAL">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>27E8CD44-71D0-6622-DC89-D8A86F092510</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RENT_ID" id="8318C5AD-0B3B-3AED-0D89-24DAD35520CB">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Rental Information ID]]></commentInRDBMS>
+<generatorID>8BED17A4-5C52-D158-349F-B7C2921FD343</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PICKUP_LOC" id="964577A0-EE14-9C68-9185-9E619FD21577">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Pickup location of Vehicle]]></commentInRDBMS>
+<generatorID>AFC4929B-AABE-BB55-5FEC-C7731B2126F0</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DROPOFF_LOC" id="FA60E28F-D53F-BF32-8E0F-81860FA40E85">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Drop off Location of Vehicle]]></commentInRDBMS>
+<generatorID>B191916B-528D-8E22-D4A8-CE02600FFDC3</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PDATE" id="A17C6156-C1BA-9F54-0244-02A9E0D26EA9">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Pickup date of Vehicle]]></commentInRDBMS>
+<generatorID>C4A34A35-5BEC-F3DA-F192-25B45004E9F2</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DDATE" id="5332B6C5-830E-F3E5-48E3-C42F174FD647">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Drop-off Date of Vehicle]]></commentInRDBMS>
+<generatorID>2D091A5E-3516-08E7-2D68-5C5B9F2E322C</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_ODO" id="EE04A0F6-8F52-8965-F066-0625779EEC9F">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Starting reading of Odometer]]></commentInRDBMS>
+<generatorID>631F154C-4D77-2CEF-8B58-A478936C62B3</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_ODO" id="898948AF-DEAB-4782-079E-85600A05BF00">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ending Reading of Odometer]]></commentInRDBMS>
+<generatorID>CD8B2714-0F29-0581-A887-41533DA28863</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISCOUNT_ID" id="BD8A764E-8F3E-3D83-7C59-02CE2F6196D6">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>1A8A3E6D-1F6D-41AD-685D-14AADAB15167</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="512915CE-CFD2-66C0-2E40-792EDA914638" referredColumn="5B8EACAA-B09F-6B5E-64BF-7F8A6F66EF7F"/>
+</associations>
+</Column>
+<Column name="CUST_ID" id="A1FC30DB-9A66-BA3D-8A64-D823D850778C">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>77F6E103-B40E-CC63-C0FF-2A2B72564858</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03A4D85F-1A52-C855-8B6B-053C0732E26C" referredColumn="EBFD821C-4CC2-9666-FF48-C438C758C1D3"/>
+</associations>
+</Column>
+<Column name="VIN" id="601E574E-7B9F-E80C-6B9A-C1B80E81F581">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>5A73AA00-9FDE-3397-E5C9-7A1924C67C87</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3C0B915-653B-7A30-423D-73A6E8377C5A" referredColumn="B7C1C7ED-98E1-3435-9DF4-D3BCEE6354EB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD3E6B30-B26D-FEFF-A134-DE28FE860091" name="CCN_RENTAL_PK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>AC3DAB70-369C-8B0E-3153-8671135EF8E7</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8318C5AD-0B3B-3AED-0D89-24DAD35520CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF60C72D-E1C9-2CC9-B7E1-EF1A7144DB25" name="CCN_RENTAL_CCN_VEHICLE_FK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>3B32E6EB-3F4F-301E-F206-C5F877A71AFD</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="601E574E-7B9F-E80C-6B9A-C1B80E81F581"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="170B616E-AA2B-7966-FFCC-05638C4BC5F7" name="CCN_RENTAL_CCN_DISCOUNT_FK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>8DADBC1A-A23A-E463-8245-0E1C58C57959</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD8A764E-8F3E-3D83-7C59-02CE2F6196D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6B55F97-F26C-0538-711A-1CB67B345F58" name="CCN_RENTAL_CCN_CUST_FK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:11:01 UTC</createdTime>
+<generatorID>4D3494D8-F471-9E7F-2BD6-25D37990CAE0</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1FC30DB-9A66-BA3D-8A64-D823D850778C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

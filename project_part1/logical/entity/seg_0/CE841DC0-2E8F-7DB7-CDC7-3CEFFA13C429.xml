@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CE841DC0-2E8F-7DB7-CDC7-3CEFFA13C429" name="CCN_VEH_CLASS">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:29:24 UTC</createdTime>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CLASS_ID" id="EA067D1E-6EC0-C6FB-B741-6F97BDFB4EF1">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:29:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Vehicle Class Identification Number]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLASS_NAME" id="EE917CB5-A67A-99A0-A059-DA970C7B0754">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:30:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes various classes of vehicle such as small car, mid-size car, luxury car, SUV, Premium SUV, Mini Van, Station Wagon etc.]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DAILY_RENTRATE" id="F2D48618-65C4-B0ED-D3D5-4DDBD017EE3E">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:37:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes the per day rental fee]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OVERMILEAGE" id="74D16BA8-8EC0-0C27-36BB-00BFF8128546">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes overmileage rate of Vehicle]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ODOLIMIT" id="175F67BD-F186-F335-39A7-18A0CA37B1FF">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:39:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Denotes Odometer Limit]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="26403D20-BB3E-CD9B-2A3F-DA7CED6314C3" name="CCN_VEH_CLASS PK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:30:17 UTC</createdTime>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EA067D1E-6EC0-C6FB-B741-6F97BDFB4EF1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

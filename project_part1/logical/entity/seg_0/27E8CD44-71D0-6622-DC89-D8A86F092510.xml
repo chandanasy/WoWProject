@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="27E8CD44-71D0-6622-DC89-D8A86F092510" name="CCN_RENTAL">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:45:08 UTC</createdTime>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RENT_ID" id="8BED17A4-5C52-D158-349F-B7C2921FD343">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:45:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Rental Information ID]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PICKUP_LOC" id="AFC4929B-AABE-BB55-5FEC-C7731B2126F0">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:46:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Pickup location of Vehicle]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DROPOFF_LOC" id="B191916B-528D-8E22-D4A8-CE02600FFDC3">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:47:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Drop off Location of Vehicle]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PDATE" id="C4A34A35-5BEC-F3DA-F192-25B45004E9F2">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:47:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Pickup date of Vehicle]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DDATE" id="2D091A5E-3516-08E7-2D68-5C5B9F2E322C">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:48:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Drop-off Date of Vehicle]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="START_ODO" id="631F154C-4D77-2CEF-8B58-A478936C62B3">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:49:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Starting reading of Odometer]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="END_ODO" id="CD8B2714-0F29-0581-A887-41533DA28863">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:49:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ending Reading of Odometer]]></commentInRDBMS>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INVOICE_ID" id="7ADD402C-0484-F972-8D92-C71B40E67D69">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 22:42:47 UTC</createdTime>
+<generatorID>3D8C6293-7A57-8BF4-893A-13F608ED5AB4</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<referedAttribute>58781461-380D-28A4-22DE-C783FCC233C2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DISCOUNT_ID" id="1A8A3E6D-1F6D-41AD-685D-14AADAB15167">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 22:43:10 UTC</createdTime>
+<generatorID>8DADBC1A-A23A-E463-8245-0E1C58C57959</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<referedAttribute>78657B77-9E13-E637-53B8-B412EEA6CE61</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUST_ID" id="77F6E103-B40E-CC63-C0FF-2A2B72564858">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 22:43:25 UTC</createdTime>
+<generatorID>4D3494D8-F471-9E7F-2BD6-25D37990CAE0</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<referedAttribute>76063AB5-B2E1-E141-28B8-13C2AF945FB7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VIN" id="5A73AA00-9FDE-3397-E5C9-7A1924C67C87">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-12 02:10:30 UTC</createdTime>
+<generatorID>3B32E6EB-3F4F-301E-F206-C5F877A71AFD</generatorID>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<referedAttribute>83EFF554-92D9-5509-A76E-A1BCFA5EAC67</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AC3DAB70-369C-8B0E-3153-8671135EF8E7" name="CCN_RENTAL PK">
+<createdBy>chandanasy</createdBy>
+<createdTime>2023-11-11 21:45:43 UTC</createdTime>
+<ownerDesignName>project_part1</ownerDesignName>
+<engineerTo>
+<item key="C7D6E5EC-1861-84CF-061F-5D739016F4AE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8BED17A4-5C52-D158-349F-B7C2921FD343</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
